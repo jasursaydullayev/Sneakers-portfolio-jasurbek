@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-display: swap;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/kumbh-sans-v22-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/kumbh-sans-v22-latin-700.woff2") format("woff2");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1210px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+img {
+  object-fit: cover;
+}
+.plus {
+  box-shadow: 0px 20px 50px -20px #ff7e1b;
+}
+.class {
+  display: none;
+}
+/* Responsive Designe */
+@media only screen and (max-width: 375.2px) {
+  .container {
+    width: 100%;
+    max-width: 427px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .items {
+    display: none;
+  }
+  .hidden {
+    display: block;
+  }
+  .items-wrapper {
+    gap: 16px;
+  }
+  .nav-wrapper-1 {
+    padding-top: 20px;
+    margin-bottom: 25px;
+  }
+  .nav-wrapper {
+    display: none;
+  }
+  .shop-wrapper {
+    gap: 22.18px;
+    margin-bottom: -35px;
+  }
+  .sneakers-wrapper {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .hidden-images {
+    display: none;
+  }
+  .class {
+    display: flex;
+  }
+  .avatar {
+    height: 24px;
+  }
+  .carousel {
+    margin-bottom: 24px;
+  }
+  .mleft-48 {
+    margin-left: 0;
+  }
+  .sneaker-company {
+    font-size: 14px;
+    line-height: 14.88px;
+    letter-spacing: 1.85px;
+    margin-bottom: 19px;
+  }
+  .fall {
+    font-size: 28px;
+    line-height: 32px;
+    width: 327px;
+  }
+  .fall-text {
+    font-size: 15px;
+    line-height: 25px;
+    width: 327px;
+  }
+  .mobile-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  .dollar {
+    margin-bottom: 7px;
+  }
+  .btns-wrapper{
+    flex-direction: column;
+  }
+  .first-btns{
+    width: 327px;
+  }
+}
