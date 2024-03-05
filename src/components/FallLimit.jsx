@@ -1,7 +1,16 @@
+import { useDispatch, useSelector } from "react-redux";
+import {
+  incrementProduct,
+  decrementProduct,
+  updateamount
+} from "../redux/features/cartSlice";
+import { useState } from "react";
 function FallLimit() {
+  const dispatch = useDispatch();
+  const { amount, amountbtn } = useSelector((store) => store.cart);
   return (
     <div>
-      <p className="font-bold text-[17px] leading-[16.12px] tracking-[2px] text-orange mb-[27px] sneaker-company">
+      <p className="font-bold text-[17px] mt-[52px] leading-[16.12px] tracking-[2px] text-orange mb-[27px] sneaker-company">
         Sneaker Company
       </p>
       <h1 className="font-bold w-[445px] fall  mb-[32px] text-[44px] leading-[48px] text-block">
@@ -27,11 +36,27 @@ function FallLimit() {
       </div>
       <div className="flex gap-[16px] btns-wrapper items-center">
         <div className="w-[157px] h-[56px] first-btns rounded-xl bg-[#F6F8FD] flex justify-between items-center px-[24px]">
-          <button className="font-bold text-orange text-2xl">-</button>
-          <p className="font-bold text-block mt-[5px]">0</p>
-          <button className="font-bold text-orange text-2xl">+</button>
+          <button
+            onClick={() => {
+              if (amountbtn >= 1) {
+                dispatch(decrementProduct());
+              }
+            }}
+            className="font-bold text-orange text-2xl"
+          >
+            -
+          </button>
+          <p className="font-bold text-block mt-[5px]">
+            {amountbtn > 0 ? amountbtn : 0}
+          </p>
+          <button
+            onClick={() => dispatch(incrementProduct())}
+            className="font-bold text-orange text-2xl"
+          >
+            +
+          </button>
         </div>
-        <div className="plus cursor-pointer first-btns bg-orange w-[272px] h-[56px] items-center justify-center gap-[15.54px] flex rounded-xl text-white">
+        <div onClick={() => dispatch(updateamount())} className="plus cursor-pointer first-btns bg-orange w-[272px] h-[56px] items-center justify-center gap-[15.54px] flex rounded-xl text-white">
           <img src="/ShopWhite.svg" alt="" width={17.46} height={16} />
           <p className="font-bold text-[16px]">Add to cart</p>
         </div>

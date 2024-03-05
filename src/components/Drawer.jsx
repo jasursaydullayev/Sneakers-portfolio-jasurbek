@@ -31,29 +31,19 @@ function Drawer() {
               alt=""
             />
           </label>
-          <li
-            className="font-bold text-[18px] leading-[26px] text-block"
-          >
+          <li className="font-bold text-[18px] leading-[26px] text-block">
             Collection
           </li>
-          <li
-            className="font-bold text-[18px] leading-[26px] text-block"
-          >
+          <li className="font-bold text-[18px] leading-[26px] text-block">
             Men
           </li>
-          <li
-            className="font-bold text-[18px] leading-[26px] text-block"
-          >
+          <li className="font-bold text-[18px] leading-[26px] text-block">
             Women
           </li>
-          <li
-            className="font-bold text-[18px] leading-[26px] text-block"
-          >
+          <li className="font-bold text-[18px] leading-[26px] text-block">
             About
           </li>
-          <li
-            className="font-bold text-[18px] leading-[26px] text-block"
-          >
+          <li className="font-bold text-[18px] leading-[26px] text-block">
             Contact
           </li>
         </ul>

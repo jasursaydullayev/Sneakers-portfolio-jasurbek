@@ -144,26 +144,26 @@ img {
     margin-left: -265px;
     height: 286px;
   }
-  .modal-hr{
+  .modal-hr {
     width: 350px;
   }
   .draver-and-snak {
     display: flex;
     gap: 16px;
   }
-  .modal-img{
+  .modal-img {
     width: 340px;
     height: 400px;
   }
-  .small-imgs{
+  .small-imgs {
     gap: 12px;
     margin-left: 13px;
   }
-  .small-img{
+  .small-img {
     width: 70px;
     height: 70px;
   }
-  .x{
+  .x {
     margin-top: -100px;
     margin-right: 8px;
   }

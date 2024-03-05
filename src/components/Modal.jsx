@@ -18,7 +18,6 @@ function Modal() {
   };
   const [image, setImage] = useState(0);
   return (
-    <div>
       <dialog id="my_modal_3" className="modal liner-modal pt-[60px]">
         <div className="flex flex-col items-end gap-[24px]">
           <form className="x" method="dialog">
@@ -58,7 +57,6 @@ function Modal() {
           </div>
         </div>
       </dialog>
-    </div>
   );
 }
 
