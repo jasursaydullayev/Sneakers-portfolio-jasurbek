@@ -16,7 +16,7 @@ function FallLimit() {
       <h1 className="font-bold w-[445px] fall  mb-[32px] text-[44px] leading-[48px] text-block">
         Fall Limited Edition Sneakers
       </h1>
-      <p className="text-[16px] fall-text leading-[26px] text-gray w-[445px] mb-[24px]">
+      <p className="text-[16px]  fall-text leading-[26px] text-gray w-[445px] mb-[24px]">
         These low-profile sneakers are your perfect casual wear companion.
         Featuring a durable rubber outer sole, they’ll withstand everything the
         weather can offer.
