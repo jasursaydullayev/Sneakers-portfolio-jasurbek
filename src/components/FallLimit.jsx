@@ -46,7 +46,7 @@ function FallLimit() {
           >
             -
           </button>
-          <p className="font-bold text-block mt-[5px]">
+          <p className="font-bold text-block mt-[5px] text-[18px] leading-[19.84px]">
             {amountbtn > 0 ? amountbtn : 0}
           </p>
           <button
