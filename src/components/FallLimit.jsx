@@ -9,7 +9,7 @@ function FallLimit() {
   const dispatch = useDispatch();
   const { amount, amountbtn } = useSelector((store) => store.cart);
   return (
-    <div>
+    <div className="fall">
       <p className="font-bold text-[17px] not-top mt-[52px] leading-[16.12px] tracking-[2px] text-orange mb-[27px] sneaker-company">
         Sneaker Company
       </p>
