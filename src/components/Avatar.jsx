@@ -12,13 +12,13 @@ function Avatar() {
         </div>
         <div
           tabIndex={0}
-          className="dropdown-content z-[1] rounded-lg card-compact bg-[#fff] w-[350px] h-[256px] pt-[14px] drop shadow ml-[-160px] mt-[19px]"
+          className="dropdown-content z-[1] rounded-lg card-compact bg-[#fff] w-[360px] h-[256px] pt-[14px] drop shadow ml-[-160px] mt-[19px]"
         >
           <div className="card-body">
             <h3 className="font-bold text-[16px] leading-[19.84px] mb-[27px] text-block">
               Card
             </h3>
-            <hr className="text-[#E4E9F2] w-[350px] mb-[47px] ml-[-16px]" />
+            <hr className="text-[#E4E9F2] w-[360px] mb-[47px] ml-[-16px]" />
             <h3 className="font-bold text-[16px] leading-[26px] text-gray text-center ">
               Your cart is empty.
             </h3>

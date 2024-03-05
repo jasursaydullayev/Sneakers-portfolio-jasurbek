@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Carousel from './Carousel'
+import Carousel from "./Carousel";
 import FallLimit from "./FallLimit";
 const linkImages = [
   "/big-sneakers.jpg",
@@ -7,20 +7,11 @@ const linkImages = [
   "/second-sneakers.jpg",
   "/third-sneakers.jpg",
 ];
-console.log(linkImages[0]);
 const allImages = [
-  {
-    width: "88",
-  },
-  {
-    width: "88",
-  },
-  {
-    width: "88",
-  },
-  {
-    width: "88",
-  },
+  { width: "88" },
+  { width: "88" },
+  { width: "88" },
+  { width: "88" },
 ];
 
 function Sneakers() {
@@ -31,7 +22,7 @@ function Sneakers() {
   };
   return (
     <div>
-     <Carousel />
+      <Carousel />
       <div className="mleft-48 ml-[48px]">
         <div className="container  sneakers-wrapper flex gap-[125px] pb-[52px]">
           <div className="hidden-images">
@@ -64,7 +55,7 @@ function Sneakers() {
               })}
             </div>
           </div>
-        <FallLimit />
+          <FallLimit />
         </div>
       </div>
     </div>

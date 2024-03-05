@@ -1,48 +1,22 @@
-import { NavLink } from "react-router-dom";
-
 function ListItemNavbar() {
   return (
     <ul className="items flex gap-[32px] text-[15px] leading-[26px] text-gray">
-      <NavLink
-        to={"/"}
-        className={({ isActive }) =>
-          isActive ? "border-b-[4px] pb-[37px] border-orange" : ""
-        }
-      >
+      <li className="hover:border-b-[4px] pb-[33px] hover:border-orange cursor-pointer">
         Collections
-      </NavLink>
-      <NavLink
-        to={"/men"}
-        className={({ isActive }) =>
-          isActive ? "border-b-[4px] pb-[37px] border-orange" : ""
-        }
-      >
+      </li>
+      <li className="hover:border-b-[4px] pb-[33px] hover:border-orange cursor-pointer">
         Men
-      </NavLink>
-      <NavLink
-        to={"/women"}
-        className={({ isActive }) =>
-          isActive ? "border-b-[4px] pb-[37px] border-orange" : ""
-        }
-      >
+      </li>
+      <li className="hover:border-b-[4px] pb-[33px] hover:border-orange cursor-pointer">
         Women
-      </NavLink>
-      <NavLink
-        to={"/about"}
-        className={({ isActive }) =>
-          isActive ? "border-b-[4px] pb-[37px] border-orange" : ""
-        }
-      >
+      </li>
+      <li className="hover:border-b-[4px] pb-[33px] hover:border-orange cursor-pointer">
         About
-      </NavLink>
-      <NavLink
-        to={"/contact"}
-        className={({ isActive }) =>
-          isActive ? "border-b-[4px] pb-[37px] border-orange" : ""
-        }
-      >
+      </li>
+      <li className="hover:border-b-[4px] pb-[33px] hover:border-orange cursor-pointer">
         Contact
-      </NavLink>
+      </li>
+      <li className="pb-[37px] invisible">Hello</li>
     </ul>
   );
 }

@@ -1,6 +1,3 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-
 function Drawer() {
   return (
     <div className="drawer z-[1]  w-[16px]">
@@ -25,7 +22,7 @@ function Drawer() {
             htmlFor="my-drawer"
             aria-label="close sidebar"
             to={"/"}
-            className="drawer-overlay"
+            className="drawer-overlay w-[13.44px] h-[13.44px]"
           >
             <img
               className="mb-[33.73px]"
@@ -34,36 +31,31 @@ function Drawer() {
               alt=""
             />
           </label>
-          <NavLink
-            to={"/"}
+          <li
             className="font-bold text-[18px] leading-[26px] text-block"
           >
             Collection
-          </NavLink>
-          <NavLink
-            to={"/men"}
+          </li>
+          <li
             className="font-bold text-[18px] leading-[26px] text-block"
           >
             Men
-          </NavLink>
-          <NavLink
-            to={"/women"}
+          </li>
+          <li
             className="font-bold text-[18px] leading-[26px] text-block"
           >
             Women
-          </NavLink>
-          <NavLink
-            to={"/about"}
+          </li>
+          <li
             className="font-bold text-[18px] leading-[26px] text-block"
           >
             About
-          </NavLink>
-          <NavLink
-            to={"/contact"}
+          </li>
+          <li
             className="font-bold text-[18px] leading-[26px] text-block"
           >
             Contact
-          </NavLink>
+          </li>
         </ul>
       </div>
     </div>
