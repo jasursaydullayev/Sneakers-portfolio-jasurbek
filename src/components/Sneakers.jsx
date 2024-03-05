@@ -1,7 +1,9 @@
 import { useState } from "react";
-import Modalimage from "./Modalimage";
 import Carousel from "./Carousel";
 import FallLimit from "./FallLimit";
+import Modalimage from "./Modalimage";
+
+
 const linkImages = [
   "/big-sneakers.jpg",
   "/first-sneakers.jpg",
