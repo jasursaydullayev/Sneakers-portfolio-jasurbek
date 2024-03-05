@@ -29,7 +29,14 @@ function Avatar() {
               Card
             </h3>
             <hr className="text-[#E4E9F2] modal-hr w-[360px] mb-[10px] ml-[-16px]" />
-            <h3 className="font-bold text-[16px] leading-[26px] text-gray text-center ">
+            <h3
+              className={
+                amount == 0
+                  ? `font-bold text-[16px] empty leading-[26px] text-gray mt-[47px]
+            text-center`
+                  : ""
+              }
+            >
               {amount == 0 ? "Your cart is empty" : ""}
             </h3>
             {amount > 0 ? (
