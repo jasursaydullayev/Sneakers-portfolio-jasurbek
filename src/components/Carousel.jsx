@@ -1,4 +1,4 @@
-import Modalimage from "./Modalimage";
+import Modalimage from "./Modal";
 function Carousel() {
   return (
     <div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Carousel from "./Carousel";
 import FallLimit from "./FallLimit";
-import Modalimage from "./Modalimage";
+import Modal from "./Modal";
 
 
 const linkImages = [
@@ -34,7 +34,7 @@ function Sneakers() {
               src={linkImages[image]}
               alt=""
             />
-            <Modalimage />
+            <Modal />
             <div className="flex gap-[31px]">
               {allImages.map((oneimage, index) => {
                 const { width } = oneimage;
