@@ -18,7 +18,7 @@ function Avatar() {
             <h3 className="font-bold text-[16px] leading-[19.84px] mb-[27px] text-block">
               Card
             </h3>
-            <hr className="text-[#E4E9F2] w-[360px] mb-[47px] ml-[-16px]" />
+            <hr className="text-[#E4E9F2] modal-hr w-[360px] mb-[47px] ml-[-16px]" />
             <h3 className="font-bold text-[16px] leading-[26px] text-gray text-center ">
               Your cart is empty.
             </h3>

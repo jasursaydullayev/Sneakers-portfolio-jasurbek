@@ -139,17 +139,21 @@ img {
     width: 327px;
   }
   .drop {
-    margin-top: 38px;
-    margin-left: -265px;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: -270px;
     height: 286px;
+  }
+  .modal-hr{
+    width: 350px;
   }
   .draver-and-snak {
     display: flex;
     gap: 16px;
   }
   .modal-img{
-    margin-left: 3px;
-    width: 360px;
+    margin-left: 6px;
+    width: 340px;
   }
   .small-imgs{
     gap: 12px;
@@ -157,10 +161,11 @@ img {
     margin-left: 15px;
   }
   .small-img{
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
   }
   .x{
-    margin-right: 9px;
+    margin-top: -100px;
+    margin-right: 8px;
   }
 }
