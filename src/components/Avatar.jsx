@@ -25,7 +25,11 @@ function Avatar() {
           </div>
         </div>
       </div>
-    
+      <img
+        className="cursor-pointer h-[50px] avatar"
+        src="/Avatar.svg"
+        alt=""
+      />
     </div>
   );
 }

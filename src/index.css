@@ -139,28 +139,28 @@ img {
     width: 327px;
   }
   .drop {
-    margin-top: 40px;
-    margin-left: -275px;
+    margin-top: 38px;
+    margin-left: -265px;
     height: 286px;
   }
   .draver-and-snak {
     display: flex;
     gap: 16px;
   }
-  .modal-img {
+  .modal-img{
     margin-left: 3px;
     width: 360px;
   }
-  .small-imgs {
+  .small-imgs{
     gap: 12px;
     margin-left: -1px;
     margin-left: 15px;
   }
-  .small-img {
+  .small-img{
     width: 75px;
     height: 75px;
   }
-  .x {
+  .x{
     margin-right: 9px;
   }
 }
