@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   incrementProduct,
   decrementProduct,
-  updateamount
+  updateamount,
 } from "../redux/features/cartSlice";
 import { useState } from "react";
 function FallLimit() {
@@ -10,7 +10,7 @@ function FallLimit() {
   const { amount, amountbtn } = useSelector((store) => store.cart);
   return (
     <div>
-      <p className="font-bold text-[17px] mt-[52px] leading-[16.12px] tracking-[2px] text-orange mb-[27px] sneaker-company">
+      <p className="font-bold text-[17px] not-top mt-[52px] leading-[16.12px] tracking-[2px] text-orange mb-[27px] sneaker-company">
         Sneaker Company
       </p>
       <h1 className="font-bold w-[445px] fall  mb-[32px] text-[44px] leading-[48px] text-block">
@@ -56,7 +56,10 @@ function FallLimit() {
             +
           </button>
         </div>
-        <div onClick={() => dispatch(updateamount())} className="plus cursor-pointer first-btns bg-orange w-[272px] h-[56px] items-center justify-center gap-[15.54px] flex rounded-xl text-white">
+        <div
+          onClick={() => dispatch(updateamount())}
+          className="plus cursor-pointer first-btns bg-orange w-[272px] h-[56px] items-center justify-center gap-[15.54px] flex rounded-xl text-white"
+        >
           <img src="/ShopWhite.svg" alt="" width={17.46} height={16} />
           <p className="font-bold text-[16px]">Add to cart</p>
         </div>

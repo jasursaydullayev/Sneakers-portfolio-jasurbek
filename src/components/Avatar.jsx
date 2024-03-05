@@ -22,20 +22,20 @@ function Avatar() {
         </div>
         <div
           tabIndex={0}
-          className="dropdown-content z-[1] rounded-lg card-compact bg-[#fff] w-[360px] h-[216px] pt-[4px] drop shadow ml-[-160px] mt-[19px]"
+          className="dropdown-content z-[1] rounded-lg card-compact bg-[#fff] w-[360px] h-[256px] pt-[14px] drop shadow ml-[-160px] mt-[19px]"
         >
           <div className="card-body">
-            <h3 className="font-bold text-[16px] leading-[19.84px] mb-[7px] text-block">
+            <h3 className="font-bold text-[16px] leading-[19.84px] mb-[17px] text-block">
               Card
             </h3>
-            <hr className="text-[#E4E9F2] modal-hr w-[360px] mb-[47px] ml-[-16px]" />
+            <hr className="text-[#E4E9F2] modal-hr w-[360px] mb-[10px] ml-[-16px]" />
             <h3 className="font-bold text-[16px] leading-[26px] text-gray text-center ">
               {amount == 0 ? "Your cart is empty" : ""}
             </h3>
             {amount > 0 ? (
               <>
                 {" "}
-                <div className="flex gap-x-[16px] mt-[-47px]  justify-between mb-[14px] items-center">
+                <div className="flex gap-x-[16px]  justify-between mb-[14px] items-center">
                   <img
                     className="rounded"
                     src="/big-sneakers.jpg"

@@ -22,10 +22,9 @@ function Drawer() {
             htmlFor="my-drawer"
             aria-label="close sidebar"
             to={"/"}
-            className="drawer-overlay w-[13.44px] h-[13.44px]"
+            className="drawer-overlay mb-[23px] w-[13.44px] h-[13.44px]"
           >
             <img
-              className="mb-[33.73px]"
               src="/x-image.svg"
               width={13.44}
               alt=""

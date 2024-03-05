@@ -167,4 +167,7 @@ img {
     margin-top: -100px;
     margin-right: 8px;
   }
+  .not-top{
+    margin-top: 0px;
+  }
 }
