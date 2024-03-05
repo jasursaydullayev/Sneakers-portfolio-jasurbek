@@ -1,9 +1,15 @@
+import ModalImage from "./ModalImage";
 function Carousel() {
   return (
     <div>
       <div className="carousel class w-full">
         <div id="slide1" className="carousel-item relative  w-full">
-          <img src="/big-sneakers.jpg" className="w-full" />
+          <img
+            onClick={() => document.getElementById("my_modal_3").showModal()}
+            src="/big-sneakers.jpg"
+            className="w-full"
+          />
+          <ModalImage />
           <div className="flex absolute justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a
               href="#slide4"
@@ -17,7 +23,11 @@ function Carousel() {
           </div>
         </div>
         <div id="slide2" className="carousel-item relative w-full">
-          <img src="/first-sneakers.jpg" className="w-full rounded-none" />
+          <img
+            src="/first-sneakers.jpg"
+            onClick={() => document.getElementById("my_modal_3").showModal()}
+            className="w-full rounded-none"
+          />
           <div className=" flex absolute justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" className="btn btn-circle">
               ❮
@@ -28,7 +38,11 @@ function Carousel() {
           </div>
         </div>
         <div id="slide3" className="carousel-item relative  w-full">
-          <img src="/second-sneakers.jpg" className="w-full" />
+          <img
+            src="/second-sneakers.jpg"
+            onClick={() => document.getElementById("my_modal_3").showModal()}
+            className="w-full"
+          />
           <div className=" flex absolute justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" className="btn btn-circle">
               ❮
@@ -39,7 +53,11 @@ function Carousel() {
           </div>
         </div>
         <div id="slide4" className="carousel-item relative  w-full">
-          <img src="/third-sneakers.jpg" className="w-full" />
+          <img
+            src="/third-sneakers.jpg"
+            onClick={() => document.getElementById("my_modal_3").showModal()}
+            className="w-full"
+          />
           <div className=" flex absolute justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" className="btn btn-circle">
               ❮

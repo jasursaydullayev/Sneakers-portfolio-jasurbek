@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ModalImage from "./ModalImage";
 import Carousel from "./Carousel";
 import FallLimit from "./FallLimit";
 const linkImages = [

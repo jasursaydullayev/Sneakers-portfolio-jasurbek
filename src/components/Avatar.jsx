@@ -8,7 +8,7 @@ function Avatar() {
             src="/Shop.svg"
             alt=""
           />
-            <div className="badge absolute w-[19px] h-[13px] text-[10px] font-bold text-[#fff] bottom-[14px] left-[14px] bg-orange">3</div>
+            <div className="badge absolute w-[19px] h-[13px] text-[10px] font-bold text-[#fff] bottom-[14px] left-[14px] bg-orange">0</div>
         </div>
         <div
           tabIndex={0}
