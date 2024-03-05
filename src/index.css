@@ -127,4 +127,17 @@ img {
   .first-btns{
     width: 327px;
   }
+  .about{
+    gap: 1px;
+  }
+  .about-text{
+  font-size: 36px;
+   width: 178px;
+  font-weight: 900;
+  }
+  .about-p{
+    font-size: 25px;
+    width: 172px;
+    height: 55px;
+  }
 }

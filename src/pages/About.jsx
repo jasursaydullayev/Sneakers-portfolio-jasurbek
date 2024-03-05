@@ -2,14 +2,14 @@ import React from "react";
 
 function About() {
   return (
-    <>
-      <div className="h-full flex justify-center items-center gap-[40px]">
-        <h1 className="text-7xl text-block">We Love</h1>
-        <div className="text-[40px] w-[250px] h-[80px] rounded-3xl bg-orange text-center pt-[10px] text-white">
+    <div className="container">
+      <div className="h-full about flex justify-center items-center gap-[40px]">
+        <h1 className="text-7xl text-block  about-text">We Love</h1>
+        <div className="text-[40px] about-p w-[250px] h-[80px] rounded-3xl bg-orange text-center pt-[10px] text-white">
           Sneakers
         </div>
       </div>
-      <p className="container mt-[30px] text-[20px] text-center">
+      <p className="mt-[30px]  text-[20px] text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi et placeat
         repellendus hic repudiandae architecto, ea quisquam eius incidunt
         similique dignissimos veritatis dolor ab quaerat officia, vel expedita.
@@ -20,7 +20,7 @@ function About() {
         quisquam? Temporibus accusamus perspiciatis nam quis delectus, ut iure
         sequi incidunt, modi obcaecati mollitia, excepturi cupiditate!
       </p>
-    </>
+    </div>
   );
 }
 
