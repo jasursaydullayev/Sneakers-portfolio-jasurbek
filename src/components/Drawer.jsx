@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Drawer() {
   return (
-    <div className="drawer  w-[16px]">
+    <div className="drawer z-[1]  w-[16px]">
       <input id="my-drawer" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content">
         <label htmlFor="my-drawer">

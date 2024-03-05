@@ -8,10 +8,12 @@ function Navbar() {
     <div className="container">
       <div className="nav-wrapper-1 pt-[28px] flex justify-between">
         <div className="items-wrapper flex gap-x-[56.5px]">
-          <Drawer />
-          <NavLink to={"/"}>
-            <img src="/sneakers-logo.svg" alt="" />
-          </NavLink>
+          <div>
+            <Drawer />
+            <NavLink to={"/"}>
+              <img src="/sneakers-logo.svg" alt="" />
+            </NavLink>
+          </div>
           <div>
             <ListItemNavbar />
           </div>
