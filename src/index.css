@@ -139,13 +139,13 @@ img {
     width: 327px;
   }
   .drop {
-    width: 350px;
+    width: 345px;
     margin-top: 38px;
-    margin-left: -265px;
+    margin-left: -260px;
     height: 286px;
   }
   .modal-hr {
-    width: 350px;
+    width: 345px;
   }
   .draver-and-snak {
     display: flex;
@@ -169,5 +169,9 @@ img {
   }
   .not-top{
     margin-top: 0px;
+  }
+  .cart-body{
+    margin-top: 15px;
+    margin-bottom: 30px;
   }
 }

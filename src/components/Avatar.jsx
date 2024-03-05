@@ -35,7 +35,7 @@ function Avatar() {
             {amount > 0 ? (
               <>
                 {" "}
-                <div className="flex gap-x-[16px]  justify-between mb-[14px] items-center">
+                <div className="flex gap-x-[16px] cart-body  justify-between mb-[14px] items-center">
                   <img
                     className="rounded"
                     src="/big-sneakers.jpg"

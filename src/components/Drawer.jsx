@@ -24,11 +24,7 @@ function Drawer() {
             to={"/"}
             className="drawer-overlay mb-[23px] w-[13.44px] h-[13.44px]"
           >
-            <img
-              src="/x-image.svg"
-              width={13.44}
-              alt=""
-            />
+            <img src="/x-image.svg" width={13.44} alt="" />
           </label>
           <li className="font-bold text-[18px] leading-[26px] text-block">
             Collection
