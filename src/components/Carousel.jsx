@@ -1,4 +1,4 @@
-import Modalimage from "./Modal";
+import Modal from "./Modal";
 function Carousel() {
   return (
     <div>
@@ -9,7 +9,7 @@ function Carousel() {
             src="/big-sneakers.jpg"
             className="w-full"
           />
-          <Modalimage />
+          <Modal />
           <div className="flex absolute justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a
               href="#slide4"
