@@ -3,11 +3,12 @@ function Carousel() {
   return (
     <div>
       <div className="carousel class w-full">
-        <div id="slide1" className="carousel-item relative  w-full">
+        <div id="slide1" className="carousel-item relative w-full">
           <img
             onClick={() => document.getElementById("my_modal_4").showModal()}
             src="/big-sneakers.jpg"
             className="w-full"
+            height={300}
           />
           <ResponsiveModal />
           <div className="flex absolute justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
