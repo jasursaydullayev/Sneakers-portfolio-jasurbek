@@ -12,7 +12,7 @@ const allImages = [
   { width: "88" },
 ];
 
-function ModalImage() {
+function Modalimage() {
   const [image, setImage] = useState(0);
   return (
     <div>
@@ -59,4 +59,4 @@ function ModalImage() {
   );
 }
 
-export default ModalImage;
+export default Modalimage;

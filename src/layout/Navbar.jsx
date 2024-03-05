@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import ListItemNavbar from "../components/ListItemNavbar";
 import Avatar from "../components/Avatar";
 import Drawer from "../components/Drawer";
@@ -9,7 +8,7 @@ function Navbar() {
       <div className="nav-wrapper-1 pt-[28px] flex justify-between">
         <div className="items-wrapper flex gap-x-[56.5px]">
           <div className="draver-and-snak">
-            <img src="/sneakers-logo.svg" alt="" />
+            <Drawer /> <img src="/sneakers-logo.svg" alt="" />
           </div>
           <div>
             <ListItemNavbar />
