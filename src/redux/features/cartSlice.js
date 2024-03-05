@@ -17,11 +17,11 @@ const cartSlice = createSlice({
     },
     removeItem: (state) => {
       state.amount = 0;
-      state.amountbtn = 0;
     },
     updateamount: (state) => {
       state.amount += state.amountbtn;
-    }
+      state.amountbtn = 0;
+    },
   },
 });
 
