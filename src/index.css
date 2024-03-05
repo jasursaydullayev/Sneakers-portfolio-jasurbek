@@ -141,7 +141,7 @@ img {
   .drop {
     width: 345px;
     margin-top: 38px;
-    margin-left: -260px;
+    margin-left: -265px;
     height: 286px;
   }
   .modal-hr {
@@ -175,6 +175,6 @@ img {
     margin-bottom: 30px;
   }
   .fall{
-    margin-left: -1px;
+    margin-left: -5px;
   }
 }
