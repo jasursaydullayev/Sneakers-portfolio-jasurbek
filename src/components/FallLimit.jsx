@@ -26,7 +26,7 @@ function FallLimit() {
           <h3 className="font-bold text-[28px] leading-[34.73px] text-block">
             $125.00
           </h3>
-          <button className="border-0 w-[51px] h-[27px] bg-[#FFEEE2] text-orange rounded font-bold text-16px cursor-auto">
+          <button className="border-0 w-[51px] h-[27px] bg-[#FFEEE2] text-orange rounded font-bold text-[16px] cursor-auto">
             50%
           </button>
         </div>
