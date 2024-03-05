@@ -13,6 +13,9 @@ const allImages = [
 ];
 
 function Modal() {
+  const handleActive = (i) => {
+    setImage(i);
+  };
   const [image, setImage] = useState(0);
   return (
     <div>
@@ -20,7 +23,7 @@ function Modal() {
         <div className="flex flex-col items-end gap-[24px]">
           <form className="x" method="dialog">
             <button>
-              <img  src="/x-white.svg" alt="" width={20} />
+              <img src="/x-white.svg" alt="" width={20} />
             </button>
           </form>
           <div>

@@ -140,8 +140,8 @@ img {
   }
   .drop {
     width: 350px;
-    margin-top: 40px;
-    margin-left: -270px;
+    margin-top: 38px;
+    margin-left: -265px;
     height: 286px;
   }
   .modal-hr{
@@ -152,13 +152,12 @@ img {
     gap: 16px;
   }
   .modal-img{
-    margin-left: 6px;
     width: 340px;
+    height: 400px;
   }
   .small-imgs{
     gap: 12px;
-    margin-left: -1px;
-    margin-left: 15px;
+    margin-left: 13px;
   }
   .small-img{
     width: 70px;
