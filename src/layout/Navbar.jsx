@@ -9,7 +9,7 @@ function Navbar() {
       <div className="nav-wrapper-1 pt-[28px] flex justify-between">
         <div className="items-wrapper flex gap-x-[56.5px]">
           <div className="draver-and-snak">
-            <Drawer /> <img src="/sneakers-logo.svg" alt="" />
+            <img src="/sneakers-logo.svg" alt="" />
           </div>
           <div>
             <ListItemNavbar />
